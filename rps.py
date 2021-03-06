@@ -35,11 +35,11 @@ def getHand():
     while True:
         hand = input("Enter your move: (r)ock (p)aper (s)cissors (q)uit: ").strip().lower()
 
-        if hand in allowed or 'q':
+        if hand in allowed or hand == 'q':
             return hand
-        
+
         else:
-            print()
+            continue
 
 
 def calculate(hand, enem):
