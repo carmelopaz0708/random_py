@@ -11,6 +11,7 @@ enemScore = 0
 allowed = ('r', 'p', 's')
 
 def main():
+    # Generates a random number
     random.seed()
 
     print("ROCK, PAPER, SCISSORS")
